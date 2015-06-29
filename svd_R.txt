@@ -1,0 +1,10 @@
+data <- read.table("c:/Demo3/3_dim/part-00002", sep=",")
+attach(data)
+library(rgl)
+plot3d(V1,V2,V3)
+
+
+data <- read.table("c:/Demo3/2_dim/part-00002", sep=",")
+attach(data)
+library(rgl)
+plot3d(V1,V2,0)
